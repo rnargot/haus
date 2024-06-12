@@ -1,0 +1,23 @@
+@import "fonts.css";
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-sans: haus, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    background-color: aliceblue;
+
+}
+@font-face {
+  font-family: 'haus';
+  src:
+    url('./fonts/haus/haus.woff2') format('woff2 supports variations'),
+    url('./fonts/haus/haus.woff2') format('woff2-variations');
+  font-weight: 300 900;
+}
+@font-face {
+  font-family: 'hauskid';
+  src:
+    url('./fonts/hauskid/hauskid.woff2') format('woff2 supports variations'),
+    url('./fonts/hauskid/hauskid.woff2') format('woff2-variations');
+  font-weight: 300 900;
+}

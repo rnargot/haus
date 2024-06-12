@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'haus';
+    src:
+      url('./fonts/haus/haus.ttf') format('woff2 supports variations');
+    font-weight: 300 900;
+  }
+@font-face {
+    font-family: 'hauskid';
+    src:
+      url('./fonts/hauskid/hauskid.ttf') format('woff2 supports variations');
+    font-weight: 300 900;
+  }
